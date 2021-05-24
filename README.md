@@ -12,3 +12,7 @@ Praca domowa:
 4. Wypełnienie danymi lorem ipsumów [podstawowe dane osobowe, zainteresowania, umiejętności, doświadczenie zawodowe]
 5. Wrzucenie jako Github Pages [https://pages.github.com/]
 6. Więcej wodotrysków w JS!
+
+Czas:
+
+1. Do połowy czerwca
