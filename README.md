@@ -15,4 +15,4 @@ Praca domowa:
 
 Czas:
 
-1. Do połowy czerwca
+1. Do połowy lipca
