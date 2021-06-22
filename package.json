@@ -1,0 +1,30 @@
+{
+  "name": "warsawjs-workshop-54-portfolio",
+  "version": "1.0.0",
+  "description": "WarsawJS Workshop 54: Wstęp do web devu",
+  "main": "main.js",
+  "dependencies": {
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "prettier": "^2.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastian-lucjan/warsawjs-workshop-54-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebastian-lucjan/warsawjs-workshop-54-portfolio/issues"
+  },
+  "homepage": "https://github.com/sebastian-lucjan/warsawjs-workshop-54-portfolio#readme"
+}
