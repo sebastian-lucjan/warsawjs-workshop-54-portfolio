@@ -8,4 +8,4 @@ const animalsArray = ['dog', 'cat', 'tiger'];
 
 console.log(animalsArray.indexOf('tiger'));
 
-addP2(3, 2);
+addP2(3, 2)

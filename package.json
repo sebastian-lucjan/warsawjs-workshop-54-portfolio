@@ -1,21 +1,16 @@
 {
   "name": "warsawjs-workshop-54-portfolio",
   "version": "1.0.0",
-  "description": "WarsawJS Workshop 54: Wstęp do web devu",
-  "main": "main.js",
-  "dependencies": {
-    "eslint-config-airbnb": "^18.2.1",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-react": "^7.21.5",
-    "eslint-plugin-react-hooks": "^1.7.0",
-    "prettier": "^2.3.1"
-  },
-  "devDependencies": {
-    "eslint": "^7.29.0"
-  },
+  "description": "WarsawJS Workshop 54",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prod": "webpack --config config/webpack.config.prod.js",
+    "dev": "webpack --config config/webpack.config.dev.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^5.40.0",
+    "webpack-cli": "^4.7.2"
   },
   "repository": {
     "type": "git",
