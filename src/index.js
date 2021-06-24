@@ -1,11 +1,8 @@
-const addP2 = (x, y) => x + y;
-// const addP3 = (x, y) => x + y;
-// const addP4 = (x, y) => x + y;
-const add = (x, y) => x + y;
-console.log(add(5, 3));
+import './css/style.css'
 
-const animalsArray = ['dog', 'cat', 'tiger'];
-
-console.log(animalsArray.indexOf('tiger'));
-
-addP2(3, 2)
+const a = new Promise((resolve, reject) => {
+  setTimeout(()=>{
+    resolve("Promise test.")
+  }, 2000)
+});
+a.then(data => console.log(data));
