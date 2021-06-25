@@ -6,14 +6,27 @@
   "scripts": {
     "start": "webpack serve --config config/webpack.config.dev.js",
     "prod": "webpack --config config/webpack.config.prod.js",
-    "dev": "webpack --config config/webpack.config.dev.js"
+    "dev": "webpack --config config/webpack.config.dev.js",
+    "lint": "eslint ."
   },
+  "browserslist": "> 0.1%",
   "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.14.7",
+    "babel-loader": "^8.2.2",
     "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "copy-webpack-plugin": "^9.0.0",
     "css-loader": "^5.2.6",
+    "eslint": "^7.29.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-prettier": "^3.4.0",
     "html-webpack-plugin": "^5.3.2",
     "image-webpack-loader": "^7.0.1",
     "mini-css-extract-plugin": "^1.6.0",
+    "prettier": "^2.3.1",
     "style-loader": "^2.0.0",
     "webpack": "^5.40.0",
     "webpack-cli": "^4.7.2",

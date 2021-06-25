@@ -1,12 +1,12 @@
-const path = require("path");
+const path = require('path');
 
-const {CleanWebpackPlugin} = require('clean-webpack-plugin');
-const HtmlWebpackPlugin = require("html-webpack-plugin")
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  mode: "development",
+  mode: 'development',
   entry: {
-    main: "./src/index.js"
+    main: './src/index.js',
   },
   output: {
     filename: 'js/[name].bundle.js',
@@ -14,20 +14,28 @@ module.exports = {
   },
   devServer: {
     open: true,
-    contentBase: path.resolve(__dirname, "../public"),
+    contentBase: path.resolve(__dirname, '../public'),
     // port: 8000,
   },
-  //loaders
+  // loaders
   module: {
     rules: [
       {
-        test:/\.css$/i,
-        use: ['style-loader', 'css-loader']
-      }
-    ]
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
+      {
+        test: /\.js$/i,
+        loader: 'babel-loader',
+        exclude: /node_modules/,
+      },
+    ],
   },
   plugins: [
-      new CleanWebpackPlugin(),
-      new HtmlWebpackPlugin({title: "WarsawJS Workshop 54", template: "src/templates/template.html"}),
-  ]
+    new CleanWebpackPlugin(),
+    new HtmlWebpackPlugin({
+      title: 'WarsawJS Workshop 54',
+      template: 'src/templates/template.html',
+    }),
+  ],
 };
